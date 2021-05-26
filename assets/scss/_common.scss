@@ -1,0 +1,22 @@
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-family: $font-main;
+  font-size: $font-size;
+}
+
+a {
+  color: $color-primary;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-accent;
+  }
+}
+
+h1 {}
+
+h2 {}
