@@ -1,4 +1,6 @@
 html {
+  overflow-y: scroll;
+
   font-size: $font-size;
 }
 
@@ -13,10 +15,15 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
+
     color: $color-accent;
   }
 }
 
-h1 {}
+h1 {
+  margin-top: -10px;
 
-h2 {}
+  font-family: $font-header;
+  font-size: 3rem;
+}
+
