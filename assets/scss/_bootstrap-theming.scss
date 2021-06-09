@@ -85,3 +85,10 @@
   border: 1px solid $color-gray;
   border-radius: 0 0 4px 4px;
 }
+
+.input {
+  &-lg,
+  &-group-lg > .form-control {
+    font-size: 0.875rem;
+  }
+}
