@@ -1,34 +1,35 @@
 .footer {
   padding-top: $gap * 3;
+
   background-color: $color-dark;
-  margin-top: -$gap / 3 * 4;
-  
+
+
 
   ul {
-    list-style: none;
     padding-left: 0;
-    
+
+    list-style: none;
   }
 
-  li {
-    
-    
-  }
 
   a {
+    color: darken($color-gray, 40%);
     background-color: transparent;
-    color: #777777;
-    
+
+
+
+    &:hover {
+      color: $color-light;
+    }
   }
 
   &-fifth {
-    text-align: center;
     margin-top: $gap / 3 * 4;
     margin-bottom: $gap / 3 * 4;
+
+    text-align: center;
     a {
       color: $color-light;
-    
     }
   }
-   
 }
