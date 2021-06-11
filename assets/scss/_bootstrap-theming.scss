@@ -50,7 +50,7 @@
     }
   }
   @include sm {
-    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -91,4 +91,10 @@
   &-group-lg > .form-control {
     font-size: 0.875rem;
   }
+}
+
+.embed-responsive {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
 }

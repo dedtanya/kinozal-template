@@ -57,17 +57,6 @@
 
   h1 {
     margin-bottom: $gap * 3;
-
-    &::after {
-      position: absolute;
-
-      width: 100%;
-      margin: 0.85em 0 0 $gap;
-
-      content: "";
-
-      border-bottom: 3px solid rgba(240, 173, 79, 0.7);
-    }
   }
 
   h3 {
@@ -127,30 +116,7 @@
     }
   }
 
-  h2 {
-    &::before {
-      position: absolute;
-      left: 0;
 
-      width: 30px;
-      margin: 0.25em 0 0 0;
-
-      content: "";
-
-      border-bottom: 3px solid rgba(240, 173, 79, 0.7);
-    }
-
-    &::after {
-      position: absolute;
-
-      width: 100%;
-      margin: 0.85em 0 0 15px;
-
-      content: "";
-
-      border-bottom: 3px solid rgba(240, 173, 79, 0.7);
-    }
-  }
 
   h3 {
     margin: 0;
@@ -203,30 +169,7 @@
     }
   }
 
-  h2 {
-    &::before {
-      position: absolute;
-      left: 0;
 
-      width: 30px;
-      margin: 0.25em 0 0 0;
-
-      content: "";
-
-      border-bottom: 3px solid rgba(240, 173, 79, 0.7);
-    }
-
-    &::after {
-      position: absolute;
-
-      width: 100%;
-      margin: 0.85em 0 0 15px;
-
-      content: "";
-
-      border-bottom: 3px solid rgba(240, 173, 79, 0.7);
-    }
-  }
 
   img {
     width: 100%;

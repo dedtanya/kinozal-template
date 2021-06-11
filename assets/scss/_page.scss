@@ -1,0 +1,32 @@
+.film-info,
+.film-description,
+.film-reviews,
+.comments-form {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.film-info {
+  font-size: 1.2rem;
+  &__wrapper:not(:last-of-type) {
+    margin-right: 15px;
+  }
+  &__badge {
+    font-size: 0.8em;
+  }
+}
+
+
+.film-description {
+  .well {
+    border-color: $color-gray;
+    background-color: darken($color-light, 5.5%);
+  }
+}
+
+.comment-form {
+  &__button {
+    float: right;
+  }
+}
