@@ -9,9 +9,13 @@
 
 .film-info {
   font-size: 1.2rem;
-  &__wrapper:not(:last-of-type) {
-    margin-right: 15px;
+  &__wrapper {
+    white-space: nowrap;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+    }
   }
+
   &__badge {
     font-size: 0.8em;
   }
@@ -30,3 +34,5 @@
     float: right;
   }
 }
+
+
